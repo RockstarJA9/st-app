@@ -10,13 +10,13 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("style.css")
 
 # ---- LOAD ASSETS ----
-img_grok_learning = Image.open("Images/City_coding.png") #Defining images to be used later.
-img_web_browser = Image.open("Images/Finished_Web_Code.png")
-img_coding = Image.open("Images/Python_Beginners.png")
-img_website_code = Image.open("Images/Website_Code.png")
+img_grok_learning = Image.open("City_coding.png") #Defining images to be used later.
+img_web_browser = Image.open("Finished_Web_Code.png")
+img_coding = Image.open("Python_Beginners.png")
+img_website_code = Image.open("Website_Code.png")
 
 #---- HEADER SECTION ----
 with st.container(): #Making the first bit of my website.

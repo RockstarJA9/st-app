@@ -1,6 +1,5 @@
 from PIL import Image #importing all required packages
 import streamlit as st
-from streamlit_lottie import st_lottie
 
 
 st.set_page_config(page_title="James's Webpage", page_icon=":tada:", layout="wide") #Setting up the name and icom that will display in the tab on your browser.
